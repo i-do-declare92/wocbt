@@ -1,0 +1,101 @@
+html {
+    background-color: #FFF;
+}
+
+/* This is the start of the navigation bar for ALL 
+the pages to stay in unison */
+
+#navbar {
+    position: relative;
+    padding: 10px;
+    text-align: right;  
+    grid-template-rows: auto;
+    font-size: large;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+/* The navbar li is keeping the navigation bar horizontal.*/
+
+#navbar li {
+    padding: 3px;
+    display: inline;
+    word-wrap: space-evenly;
+}
+
+.nav-link {
+    display: inline;
+}
+
+#navbar a:link {
+color: #000;
+text-decoration: none;
+}
+
+#navbar a:visited {
+    color: #000;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+    
+}
+
+#navbar a:active {
+    text-decoration: underline;
+}
+
+#logo {
+   
+    width: 1px;
+}
+
+/* This is the end of the navigation bar */
+
+/* This is the beginning of the body work. The images and content are going to have a checkerboard look */
+
+#image1 {
+    width: 100%;
+}
+
+#content1 {
+    justify-content: center space-around;
+    background-color: #7b7a78;
+}
+
+#p1 {
+    
+    background-color: #7b7a78;
+}
+
+#hh3 {
+    font-size: 20px;
+}
+
+/* This is the end of the body */
+
+/* This is the beginning of the footer. This also needs to be unison on
+EVERY page */
+
+footer {
+    width: 100%;
+    background-color: #000;
+    color: #FFF;
+    list-style-type: none;
+    padding: 3px;
+    
+}
+
+footer a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: #fff;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
