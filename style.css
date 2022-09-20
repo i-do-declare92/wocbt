@@ -1,6 +1,4 @@
-html {
-    background-color: #FFF;
-}
+
 
 /* This is the start of the navigation bar for ALL 
 the pages to stay in unison */
@@ -21,7 +19,7 @@ the pages to stay in unison */
 #navbar li {
     padding: 3px;
     display: inline;
-    word-wrap: space-evenly;
+    
 }
 
 .nav-link {
@@ -38,7 +36,7 @@ text-decoration: none;
 }
 
 #navbar a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     
 }
 
@@ -52,26 +50,22 @@ text-decoration: none;
 }
 
 /* This is the end of the navigation bar */
-
+body {
+    background-color: #FFF;
+}
 /* This is the beginning of the body work. The images and content are going to have a checkerboard look */
 
 #image1 {
     width: 100%;
 }
 
-#content1 {
-    justify-content: center space-around;
-    background-color: #7b7a78;
-}
-
-#p1 {
+.content {
     
     background-color: #7b7a78;
 }
 
-#hh3 {
-    font-size: 20px;
-}
+
+
 
 /* This is the end of the body */
 
