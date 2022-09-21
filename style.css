@@ -44,10 +44,7 @@ text-decoration: none;
     text-decoration: underline;
 }
 
-#logo {
-   
-    width: 1px;
-}
+
 
 /* This is the end of the navigation bar */
 body {
@@ -59,31 +56,83 @@ body {
     object-position: 50% 50%;
     height: 100%;
     width: 100%;
-    max-height: 100%;
+    max-height: 400%;
     object-fit: cover;
     max-width: 100%;
     background-size: cover;
     background-color: #e0e0db;
+    margin: 0;
 }
 
+/*This is the beginning of the home page banner*/
+
 .content {
+    
+    text-align: center;
+    margin: 0px;
     max-height: 100%;
     max-width: 100%;
-    object-fit: fill;
+    object-fit: cover;
     background-color: #e0e0db;
 }
 
 #header1 {
-    margin: 0;
-    padding: 0;
+    background-color: #e0e0db;
+    
+    margin: 0px;
+    padding: 12px;
     font-size: 2rem;
-    font-family:Impact, 'Arial Narrow Bold', sans-serif;
-    font-weight: 300;
+    font-family: sans-serif;
+    font-weight: 280;
     font-style: normal;
-    line-height: 1.8;
+    line-height: 1.5;
 }
 
+#para1 {
+    background-color: #e0e0db;
+    text-align: left;
+    margin: 0px;
+   padding: 12px;
+   line-height: 1.5;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
 
+/*This is the end of the home page banner
+and the start of the main body*/
+
+
+
+#image2 {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    float: right;
+    height: 400px;
+    width: 400px;
+}
+
+.content {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    float: left;
+}
+
+#header2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    float: left;
+}
+
+#para2 {
+    font-size: 1rem;
+    float: left;
+}
 
 
 
