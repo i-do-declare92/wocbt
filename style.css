@@ -36,7 +36,7 @@ text-decoration: none;
 }
 
 #navbar a:hover {
-    text-decoration: none;
+    text-decoration: underline;
     
 }
 
@@ -56,13 +56,34 @@ body {
 /* This is the beginning of the body work. The images and content are going to have a checkerboard look */
 
 #image1 {
+    object-position: 50% 50%;
+    height: 100%;
     width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    background-size: cover;
+    background-color: #e0e0db;
 }
 
 .content {
-    
-    background-color: #7b7a78;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: fill;
+    background-color: #e0e0db;
 }
+
+#header1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.8;
+}
+
+
 
 
 
