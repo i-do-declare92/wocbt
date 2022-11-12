@@ -3,27 +3,41 @@
 /* This is the start of the navigation bar for ALL 
 the pages to stay in unison */
 
-#navbar {
-    position: relative;
-    padding: 10px;
-    text-align: right;  
-    grid-template-rows: auto;
-    font-size: large;
-    text-decoration: none;
+.header_container {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex: 1 0 67%;
+    align-items: center;
+    padding: 1.5em;
+}
+
+#navbar_container {
+    font-size: 1.3em;
+    font-weight: 1;
     list-style-type: none;
-    
+    width: 100%;
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
 }
 
 /* The navbar li is keeping the navigation bar horizontal.*/
 
 #navbar li {
-    padding: 3px;
-    display: inline;
+    padding: 5px;
+    /* display: inline; */
     
 }
 
 .nav-link {
     display: inline;
+    font-family: Helvetica, sans-serif;
 }
 
 #navbar a:link {
@@ -49,6 +63,7 @@ text-decoration: none;
 /* This is the end of the navigation bar */
 body {
     background-color: #FFF;
+    margin: 0;
 }
 /* This is the beginning of the body work. The images and content are going to have a checkerboard look */
 
