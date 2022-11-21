@@ -1,0 +1,84 @@
+/* This is the start of the navigation bar for ALL 
+the pages to stay in unison */
+
+.header_container {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex: 1 0 67%;
+    align-items: center;
+    padding: 1.5em;
+}
+
+#navbar_container {
+    font-size: 1.3em;
+    font-weight: 1;
+    list-style-type: none;
+    width: 100%;
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* The navbar li is keeping the navigation bar horizontal.*/
+
+#navbar li {
+    padding: 5px;
+    /* display: inline; */
+    
+}
+
+.nav-link {
+    display: inline;
+    font-family: Helvetica, sans-serif;
+}
+
+#navbar a:link {
+color: #000;
+text-decoration: none;
+}
+
+#navbar a:visited {
+    color: #000;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+    
+}
+
+#navbar a:active {
+    text-decoration: underline;
+}
+
+
+
+/* This is the beginning of the footer. This also needs to be unison on
+EVERY page */
+
+footer {
+    width: 100%;
+    background-color: #000;
+    color: #FFF;
+    list-style-type: none;
+    padding: 3px;
+    
+}
+
+footer a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: #fff;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
