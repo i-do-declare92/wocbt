@@ -17,17 +17,22 @@ body {
     max-width: 100%;
     background-size: cover;
     background-color: #e0e0db;
+    margin-bottom: -4px;
     
 }
 
 /*This is the beginning of the home page banner*/
 
+.contain {
+    width: 100%;
+}
+
+
 .content {
     font-size: 16px;
     text-align: center;
     margin: 0px;
-    max-height: 100%;
-    max-width: 100%;
+    display: flex;
     object-fit: cover;
     background-color: #e0e0db;
 }
@@ -71,13 +76,6 @@ and the start of the main body*/
     width: 400px;
 }
 
-.content {
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    float: left;
-}
 
 #header2 {
     font-size: 1.5rem;
