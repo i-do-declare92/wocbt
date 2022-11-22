@@ -77,9 +77,7 @@ and the start of the main body*/
 
 
 
-.content2 {
-    width: 5%;
-}
+
 
 #header2 {
     padding: 2.5%;
@@ -123,9 +121,7 @@ justify-content: space-evenly;
     padding: 2.5%;
 }
 
-.content4 {
-    width: 5%;
-}
+
 
 .contain4 {
 display: flex;
