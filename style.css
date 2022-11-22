@@ -60,7 +60,7 @@ body {
 /*This is the end of the home page banner
 and the start of the main body*/
 
-.containt2 {
+.contain2 {
     display: flex;
     justify-content: space-evenly;
 }
