@@ -78,7 +78,7 @@ and the start of the main body*/
 
 
 .content2 {
-    width: 50%;
+    width: 5%;
 }
 
 #header2 {
@@ -93,7 +93,58 @@ and the start of the main body*/
     padding: 2.5%;
 }
 
+
+
+.contain3 {
+display: flex;
+justify-content: space-evenly;
+
+}
+
 .image3{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    height: 450px;
+    width: 450px;
+}
+
+#header3 {
+    font-size: 26px;
+    padding: 2.5%;
+    font-weight: bold;
+}
+
+#para3 {
+    font-size: 20px;
+    width: 75%;
+    padding: 2.5%;
+}
+
+.content4 {
+    width: 5%;
+}
+
+.contain4 {
+display: flex;
+justify-content: space-evenly;
+}
+
+#header4 {
+    font-size: 26px;
+    padding: 2.5%;
+    font-weight: bold;
+}
+
+#para4 {
+    font-size: 20px;
+    width: 75%;
+    padding: 2.5%;
+}
+
+.image4 {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
