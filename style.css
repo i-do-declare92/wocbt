@@ -49,8 +49,8 @@ body {
     background-color: #e0e0db;
     text-align: center;
     margin: 0px;
-   padding: 12px;
-   line-height: 1.5;
+    padding: 12px;
+    line-height: 1.5;
     font-size: 1.5rem;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     font-style: normal;
@@ -74,6 +74,9 @@ and the start of the main body*/
     height: 400px;
     width: 400px;
 }
+
+
+
 
 
 #header2 {
@@ -146,9 +149,39 @@ justify-content: space-evenly;
     width: 400px;
 }
 
+.btn {
+    
+    background-color: #253451;
+    color:#FFF;
+    width: 200px;
+    height: 75px;
+    border-radius: 7%;
+    font-size: 20px;
+    
+    margin: auto;
+    border-style: none;
+    
+}
+
+.bwrap {
+    width: 100%;
+    text-align: center;
+    
+}
+
 .image5 {
     width: 100%;
 }
+
+.bwrap a:hover {
+    background-color: #515d74;
+}
+
+.header5 {
+    text-align: center;
+    
+}
+
 
 
 /* This is the end of the body */
