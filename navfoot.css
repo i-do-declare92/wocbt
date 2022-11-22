@@ -62,13 +62,19 @@ text-decoration: none;
 EVERY page */
 
 footer {
-    width: 100%;
     background-color: #000;
     color: #FFF;
     list-style-type: none;
-    padding: 3px;
-    
+    margin-top: -5px;
 }
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3em;
+    font-size: 1.3em;
+}
+
 
 footer a:link {
     color: #FFF;
