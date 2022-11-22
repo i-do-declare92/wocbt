@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+.video-container {
+    background-color: black;
+    color: white;
+    padding: 1.5em;
+}
+
+.content {
+    text-align: center;
+    font-size: calc(1.4 * 1rem);
+}
+
+.gb1 {
+    padding: 5em;
+}
+
+.pb2 {
+    width: 60%;
+    margin: auto;
+    font-size: 1.4em;
+    line-height: 1.5em;
+}
