@@ -14,3 +14,6 @@ S.S., Added the images in the HTML files of every page. We chose to go this rout
 
 ### CSS Construction
 S.S., Started and finished the CSS for the navigation bar for all of the pages of the website. All of the CSS has been done by hand and with fore thought for future interaction with the code base. Comments are placed to keep track of what is controlling what. Most of it is pretty basic but nonetheless belongs to Wonders of Creation Virtual Bible Tours. S.S., has also imported all of the imaes that are to be used from E.S. from multiple mueseums in North America.
+
+## Collaboration Starts With Ian Waddell / CSS & HTML PT. 2
+I.W. reconstructed the navigation bar, footer, and was part of the initial CSS on both the home page and booking pages. I.W. also helped reconstruct the HTML of these pages as well as the navigation on EVERY current webpage.
