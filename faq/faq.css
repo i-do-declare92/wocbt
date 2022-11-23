@@ -27,3 +27,28 @@
 .content4 {
     background-color: #e0e0db;
 }
+
+.img {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image1 {
+    width: 100%;
+}
+
+.intro {
+    background-color: #292829;
+    color: #fff;
+    height: 250px;
+    width: 100%;
+    padding: -4px;
+}
+
+.intro1 {
+    font-size: 25px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-top: 50px;
+}
