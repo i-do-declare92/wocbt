@@ -177,6 +177,11 @@ justify-content: space-evenly;
     margin-right: auto;
 }
 
+.link {
+    color: #253451;
+    font-weight: bold;
+}
+
 .btn {
     
     background-color: #253451;
@@ -185,7 +190,7 @@ justify-content: space-evenly;
     height: 75px;
     border-radius: 7%;
     font-size: 20px;
-    
+    cursor: pointer;
     margin: auto;
     border-style: none;
     
@@ -235,6 +240,7 @@ button:hover {
     height: 65px;
     border-radius: 7%;
     font-size: 15px;
+    cursor: pointer;
     
     margin: auto;
     border-style: none;
@@ -283,6 +289,7 @@ button:hover {
     font-size: 15px;
     margin: auto;
     border-style: none;
+    cursor: pointer;
 }
 
 #header6 {
