@@ -1,0 +1,29 @@
+.contain1 {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.gry {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contain3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contain4 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content2 {
+    background-color: #e0e0db;
+}
+
+
+.content4 {
+    background-color: #e0e0db;
+}
