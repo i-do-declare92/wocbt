@@ -1,10 +1,11 @@
-
 /* This is the end of the navigation bar */
+
+/* This is the beginning of the body work. The images and content are going to have a checkerboard look */
+
 body {
     background-color: #FFF;
     margin: 0;
 }
-/* This is the beginning of the body work. The images and content are going to have a checkerboard look */
 
 #image1 {
     
@@ -173,7 +174,7 @@ justify-content: space-evenly;
     width: 100%;
 }
 
-.bwrap a:hover {
+button:hover {
     background-color: #515d74;
 }
 
@@ -182,7 +183,99 @@ justify-content: space-evenly;
     
 }
 
+.contain5 {
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.evan {
+    padding: 20px;
+    background-color: #e0e0db;
+    text-align: center;
+}
 
+#evan1 {
+    padding: 10px;
+    border-radius: 180%;
+    height: 350px;
+    width: 350px;
+}
+
+.btn2 {
+    background-color: #253451;
+    color:#FFF;
+    width: 200px;
+    height: 65px;
+    border-radius: 7%;
+    font-size: 15px;
+    
+    margin: auto;
+    border-style: none;
+}
+
+#header5 {
+    text-align: center;
+    font-size: 20px;
+}
+
+#para5 {
+    font-size: 20px;
+    width: 75%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+.contain6 {
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.vanessa {
+    padding: 20px;
+    background-color: #e0e0db;
+    text-align: center;
+}
+
+#vanessa1 {
+    padding: 10px;
+    border-radius: 180%;
+    height: 350px;
+    width: 350px;
+}
+
+.btn3 {
+    background-color: #253451;
+    color:#FFF;
+    width: 200px;
+    height: 65px;
+    border-radius: 7%;
+    font-size: 15px;
+    margin: auto;
+    border-style: none;
+}
+
+#header6 {
+    text-align: center;
+    font-size: 20px;
+}
+
+#para6 {
+    font-size: 20px;
+    width: 75%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+}
+
+.contain7 {
+    display: flex;
+    justify-content: space-around;
+}
 /* This is the end of the body */
 
