@@ -42,7 +42,7 @@
     color: #fff;
     height: 250px;
     width: 100%;
-    padding: -4px;
+    padding: -5px;
 }
 
 .intro1 {
@@ -51,4 +51,49 @@
     width: 50%;
     margin: auto;
     padding-top: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.insta  {
+    font-weight: bold;
+    color: #253451;
+    text-decoration: none;
+}
+
+.head1{
+    font-size: 25px;
+}
+
+.head2 {
+    font-size: 25px;
+}
+
+.head3 {
+    font-size: 25px;
+}
+
+.para1 {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.head4 {
+    font-size: 25px;
+}
+
+.head5 {
+    font-size: 25px;
+}
+
+.head6 {
+    font-size: 25px;
+}
+
+.para2 {
+    font-size: 20px;
+    padding: 5px;
 }
