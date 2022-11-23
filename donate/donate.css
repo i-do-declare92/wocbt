@@ -1,0 +1,95 @@
+.contain1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card1 {
+    padding: 20px;
+    background-color: #e0e0db;
+    text-align: center;
+}
+
+.evan {
+    padding: 10px;
+    border-radius: 180%;
+    height: 325px;
+    width: 325px;
+}
+
+.head1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.para1 {
+    font-size: 18px;
+    width: 75%;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+}
+
+.btn1 {
+    background-color: #253451;
+    color: #fff;
+    width: 150px;
+    height: 55px;
+    border-radius: 7%;
+    font-size: 15px;
+    border-style: none;
+    
+}
+
+.contain2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card2 {
+    padding: 20px;
+    background-color: #e0e0db;
+    text-align: center;
+}
+
+.vanessa {
+    padding: 10px;
+    border-radius: 180%;
+    height: 350px;
+    width: 350px;
+}
+
+.head2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.para2 {
+    font-size: 18px;
+    width: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+}
+
+.btn2 {
+    background-color: #253451;
+    color: #fff;
+    width: 150px;
+    height: 55px;
+    border-radius: 7%;
+    font-size: 15px;
+    border-style: none;
+}
+
+button:hover {
+    background-color: #515d74;
+}
+
+.contain3 {
+    display: flex;
+    justify-content: space-evenly;
+}
