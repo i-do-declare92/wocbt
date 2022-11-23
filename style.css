@@ -74,6 +74,7 @@ and the start of the main body*/
     margin: 10px;
     height: 400px;
     width: 400px;
+    margin: auto;
 }
 
 
@@ -81,17 +82,33 @@ and the start of the main body*/
 
 
 #header2 {
-    padding: 2.5%;
-    font-size: 26px;
-    font-weight: bold;
+    
+    font-size: 25px;
+    
+    margin: auto;
+}
+
+#content2 {
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
 }
 
 #para2 {
     font-size: 20px;
-    width: 75%;
-    padding: 2.5%;
+    
+    padding: 10px;
+    
 }
 
+
+.content3 {
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+}
 
 
 .contain3 {
@@ -108,18 +125,26 @@ justify-content: space-evenly;
     margin: 10px;
     height: 450px;
     width: 450px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #header3 {
-    font-size: 26px;
-    padding: 2.5%;
-    font-weight: bold;
+    font-size: 25px;
+    margin: auto;
 }
 
 #para3 {
     font-size: 20px;
-    width: 75%;
-    padding: 2.5%;
+    
+    padding: 10px;
+}
+
+.content4 {
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
 }
 
 
@@ -129,15 +154,15 @@ justify-content: space-evenly;
 }
 
 #header4 {
-    font-size: 26px;
-    padding: 2.5%;
-    font-weight: bold;
+    font-size: 25px;
+    margin: auto;
+    
 }
 
 #para4 {
     font-size: 20px;
-    width: 75%;
-    padding: 2.5%;
+    
+    padding: 10px;
 }
 
 .image4 {
@@ -148,6 +173,8 @@ justify-content: space-evenly;
     margin: 10px;
     height: 400px;
     width: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .btn {
