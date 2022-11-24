@@ -3,7 +3,7 @@
 /* This is the beginning of the body work. The images and content are going to have a checkerboard look */
 
 body {
-    background-color: #FFF;
+    background-color: #f8f7f9;
     margin: 0;
 }
 
@@ -204,6 +204,7 @@ justify-content: space-evenly;
 
 .image5 {
     width: 100%;
+    margin-bottom: -15px;
 }
 
 button:hover {
