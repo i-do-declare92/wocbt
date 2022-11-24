@@ -40,6 +40,7 @@ body {
 
 .form1 {
     margin: auto;
+    padding: 10px;
     
     
     height: auto;
@@ -87,4 +88,8 @@ button {
     cursor: pointer;
     margin: auto;
     border-style: none;
+}
+
+button:hover {
+    background-color: #515d74;
 }

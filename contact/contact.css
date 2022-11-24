@@ -85,3 +85,7 @@ button {
     color: #2e4064;
     font-weight: bold;
 }
+
+button:hover {
+    background-color: #515d74;
+}
