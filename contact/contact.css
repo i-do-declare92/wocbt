@@ -1,5 +1,6 @@
 body {
     background-color: #f8f7f9;
+    margin: 0;
 }
 
 .contain {
@@ -63,6 +64,7 @@ button {
     display: flex;
     justify-content: space-evenly;
     padding: -4px;
+    margin-bottom: -15px;
 }
 
 .content {
