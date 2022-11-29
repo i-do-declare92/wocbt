@@ -9,6 +9,7 @@ body {
     padding: 1.5em;
 }
 
+
 .content {
     text-align: center;
     font-size: calc(1.4 * 1rem);
@@ -23,4 +24,20 @@ body {
     margin: auto;
     font-size: 1.4em;
     line-height: 1.5em;
+}
+
+.contain {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.sixdays {
+    height: 50%;
+    width: 75%px;
+    margin: auto;
+}
+
+.content2 {
+    margin: auto;
 }
