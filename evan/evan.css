@@ -1,3 +1,55 @@
 body {
     background-color: #f8f7f9;
 }
+
+
+
+.images {
+    display: flex;
+    
+
+}
+
+.contain1 {
+    justify-content: space-evenly;
+}
+
+#paypal {
+    margin: auto;
+}
+
+#zelle {
+    margin: auto;
+}
+
+#apple {
+    margin: auto;
+}
+
+.para3 {
+    margin: auto;
+}
+
+.images1 {
+    display: flex;
+}
+
+.contain2 {
+    justify-content: space-evenly;
+}
+
+#venmo {
+    margin: auto;
+}
+
+#cashapp {
+    margin: auto;
+}
+
+#cheque {
+    margin: auto;
+}
+
+.para4 {
+    margin: auto;
+}
