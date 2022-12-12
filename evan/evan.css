@@ -4,12 +4,49 @@ body {
 
 
 
+
+.contain {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content {
+    justify-content: space-around;
+}
+
+#evan {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.evan {
+   
+    height: auto;
+    margin: auto;
+}
+
+.para {
+    margin: 5%;
+}
+
+.content2 {
+    justify-content: space-around;
+}
+
+.about {
+    text-align: center;
+}
+
+.para2 {
+    margin: 5%;
+}
+
 .images {
     display: flex;
     
 
-}
 
+}
 .contain1 {
     justify-content: space-evenly;
 }
