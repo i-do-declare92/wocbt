@@ -1,3 +1,26 @@
 body {
     background-color: #f8f7f9;
 }
+
+.contain {
+    display: flex;
+}
+
+.para1 {
+    margin: 5%;
+}
+
+.vanessa{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.vanessa1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.about {
+    text-align: center;
+}
