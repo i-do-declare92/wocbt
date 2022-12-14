@@ -25,25 +25,39 @@ body {
     text-align: center;
 }
 
+.images {
+    display: flex;
+    justify-content: space-around;
+}
+
 .contain1 {
+    
+    justify-content: space-around;
+}
+
+.images1 {
     display: flex;
     justify-content: space-around;
 }
 
 .content2 {
     
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: auto;
 }
 
 .interact {
     width: 50%;
     height: auto;
+    margin: auto;
 }
 
+
+
 .contain2 {
-    display: flex;
+  
     justify-content: space-around;
+    
 }
 
 .content3 {
@@ -54,11 +68,11 @@ body {
 .buycoffee {
     width: 50%;
     height: auto;
-    margin: auto;
+    
 }
 
 .check {
     width: 50%;
     height: auto;
-    margin: auto;
+    
 }
