@@ -2,15 +2,22 @@ body {
     background-color: #f8f7f9;
 }
 
-
-
-
 .contain {
     display: flex;
-    justify-content: space-evenly;
+    
 }
 
-.content {
+.para {
+    margin: 5%;
+
+}
+
+.evan {
+    height: auto;
+    margin: auto;
+}
+
+    .content {
     justify-content: space-around;
 }
 
@@ -19,18 +26,18 @@ body {
     text-decoration: underline;
 }
 
-.evan {
-   
-    height: auto;
-    margin: auto;
-}
 
-.para {
-    margin: 5%;
+.contain1 {
+    
+    
+    display: flex;
+    justify-content: space-around;
+    
 }
 
 .content2 {
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin: auto;
 }
 
 .about {
@@ -43,13 +50,13 @@ body {
 
 .images {
     display: flex;
-    
-
-
 }
-.contain1 {
-    justify-content: space-evenly;
+
+.contain2 {
+    display: flex;
+    justify-content: space-around;
 }
+
 
 #paypal {
     margin: auto;
