@@ -28,7 +28,7 @@ body {
 
 .contain {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: auto;
     
 }
@@ -81,6 +81,10 @@ button:hover {
     justify-content: space-evenly;
     
    
+}
+
+button {
+    margin: auto;
 }
 
 .content3 {
