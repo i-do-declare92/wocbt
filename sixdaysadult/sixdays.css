@@ -1,3 +1,21 @@
 body {
     background-color: #f8f7f9;
+    margin: auto;
+}
+
+
+
+.contain {
+    display: flex;
+    
+}
+
+.content {
+    justify-content: space-around;
+    margin: auto;
+}
+
+.para {
+    justify-content: space-evenly;
+    margin: auto;
 }
