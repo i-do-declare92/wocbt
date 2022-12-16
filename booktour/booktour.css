@@ -30,14 +30,65 @@ body {
     display: flex;
     justify-content: space-evenly;
     margin: auto;
+    
 }
 
 .sixdays {
-    height: 50%;
-    width: 75%px;
+    height: auto;
+    width: 80%;
     margin: auto;
+    
 }
 
 .content2 {
+    height: auto;
+    
+    width: auto;
+}
+
+
+
+.para1 {
+    font-size: 18px;
     margin: auto;
+    padding: 5px;
+}
+
+.para2 {
+    margin: auto;
+}
+
+.btn {
+    background-color: #253451;
+    color: #f8f7f9;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 15%;
+}
+
+.contain1 {
+    display: flex;
+    justify-content: space-evenly;
+    
+   
+}
+
+.content3 {
+    height: auto;
+    width: auto;
+   
+    
+}
+
+.children {
+    height: auto;
+    width: 650px;
+    
+}
+
+.content4 {
+    height: auto;
+    width: auto;
+    
 }
