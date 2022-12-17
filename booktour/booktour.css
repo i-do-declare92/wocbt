@@ -42,7 +42,7 @@ body {
 
 .content2 {
     height: auto;
-    
+    margin: auto;
     width: auto;
 }
 
@@ -88,6 +88,7 @@ button {
 }
 
 .content3 {
+    margin: auto;
     height: auto;
     width: auto;
    
@@ -97,11 +98,18 @@ button {
 .children {
     height: auto;
     width: 650px;
+    margin: auto;
     
 }
 
 .content4 {
     height: auto;
     width: auto;
+}
+
+.giants {
+    height: auto;
+    width: 650px;
+    margin: auto;
     
 }
