@@ -1,3 +1,44 @@
 body {
     background-color: #f8f7f9;
 }
+
+.img {
+    text-align: center;
+}
+
+.contain {
+    display: flex;
+}
+
+.content {
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 15px;
+}
+
+.para {
+    font-size: 20px;
+}
+
+.contain1 {
+    text-align: center;
+}
+
+.btn {
+    
+    background-color: #253451;
+    color:#FFF;
+    width: 200px;
+    height: 75px;
+    border-radius: 7%;
+    font-size: 20px;
+    cursor: pointer;
+    margin: auto;
+    border-style: none;
+    
+}
+
+.btn:hover {
+    background-color: #515d74;
+}
+
