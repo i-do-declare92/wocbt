@@ -5,9 +5,11 @@ body {
 
 .contain1 {
     display: flex;
-    justify-content: space-evenly;
     
+    justify-content: space-between;
 }
+
+
 
 .gry {
     display: flex;
@@ -26,6 +28,8 @@ body {
 
 .content2 {
     background-color: #e0e0db;
+    
+    
 }
 
 
