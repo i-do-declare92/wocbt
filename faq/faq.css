@@ -1,11 +1,10 @@
 body {
     background-color: #f8f7f9;
-    margin: 0;
+    margin: 0px;
 }
 
 .contain1 {
     display: flex;
-    
     justify-content: space-around;
 }
 
@@ -33,6 +32,7 @@ body {
 
 .contain4 {
     display: flex;
+    margin-bottom: -25px;
     justify-content: space-evenly;
 }
 
@@ -55,6 +55,7 @@ body {
     margin-top: 1em;
     margin-bottom: 1em;
     padding: 5px;
+    padding-bottom: -5px;
 }
 
 .img {
@@ -69,9 +70,10 @@ body {
 .intro {
     background-color: #292829;
     color: #fff;
-    height: 250px;
+    padding: 10px;
     width: 100%;
-    padding: -5px;
+    
+    padding-bottom: 25px;
 }
 
 .intro1 {
@@ -134,3 +136,4 @@ body {
     font-size: 20px;
     padding: 5px;
 }
+
