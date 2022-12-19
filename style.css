@@ -31,6 +31,12 @@ body {
 .content {
     display: flex;
     justify-content: space-evenly;
+    animation-name: content;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+    animation-delay: 10s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
 }
 
 #header1 {
