@@ -17,3 +17,6 @@ S.S., Started and finished the CSS for the navigation bar for all of the pages o
 
 ## Collaboration Starts With Ian Waddell / CSS & HTML PT. 2
 I.W. reconstructed the navigation bar, footer, and was part of the initial CSS on both the home page and booking pages. I.W. also helped reconstruct the HTML of these pages as well as the navigation on EVERY current webpage.
+
+## Chinese Content Author 靳博成 (Bocheng Jin) 
+B.J. is the content creator and Chinese tour presenter that will be unvieled before this site will be. All of the content in Chinese is translated by B.J. along with the title of the Chinese tour image. 
