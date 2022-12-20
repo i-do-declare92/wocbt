@@ -59,6 +59,10 @@ body {
 }
 
 .btn {
+    text-align: center;
+}
+
+#btn {
     
     background-color: #253451;
     color:#FFF;
