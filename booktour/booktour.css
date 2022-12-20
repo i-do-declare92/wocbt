@@ -27,9 +27,11 @@ body {
 }
 
 .contain {
+    background-color: #e0e0db;
     display: flex;
     justify-content: space-between;
     margin: auto;
+    
     
 }
 
@@ -60,6 +62,7 @@ body {
 
 .btn {
     text-align: center;
+    padding: 10px;
 }
 
 #btn {
@@ -74,6 +77,11 @@ body {
     margin: auto;
     border-style: none;
     
+}
+
+.btn1 {
+    text-align: center;
+    padding: 10px;
 }
 
 button:hover {
@@ -116,4 +124,10 @@ button {
     width: 650px;
     margin: auto;
     
+}
+
+#chinese {
+    height: auto;
+    width: 650px;
+    margin: auto;
 }
