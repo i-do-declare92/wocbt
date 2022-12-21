@@ -71,42 +71,40 @@
     </div>
 
     <div class="contain1">
-
+        
         <form netlify name="sixdays" class="form">
-
-            <p class="para1">
-                Your First Name:
-            </p>
-            <label><input type="text" name="firstName"></label>
-            <p class="para1">
-                Your Last Name:
-            </p>
-            <label><input type=text name="lastName"></label>
-            <p class="para1">
-                Your Email:
-            </p>
-            <label><input type=text name="email"></label>
-            <p class="para1">
-                Number Of Devices:
-            </p>
-            <label> <input type="text" name="attendance"></label>
-
-            <p class="para2">
-                <select name="dates[]" multiple>
+            <div class="content1">
+            
+                <p class="para1">
+                    Your Name:
+                    <label class="field"><input type="text" name="name"></label>
+                </p>
+                <p class="para1">
+                    Email:
+                    <label class="field"><input type=text name="email"></label>
+                </p>
+                <p class="para1">
+                    Number Of Devices:
+                    <label class="field"><input type=text name="devices"></label>
+                </p>
+                
+                
+                <p class="para1">
+                    <select name="dates[]" multiple>
                     <option value="date">02/05/2023 @ 12:00pm CST</option>
                     <option value="date">02/10/2023 @ 01:00pm CST</option>
                     <option value="date">02/10/2023 @ 02:00pm CST</option>
                 </select>
             </p>
-
-            <button class="btn" type="submit" name="submit">Book Tour</button>
-        </form>
-
-        <div class="button">
-            <a>
-            </a>
         </div>
-    </div>
+            
+    </form>
+    
+</div>
+<div class="button">
+    <button class="btn" type="submit" name="submit">Book Tour</button>
+</div>
+
 
     <footer class="footer">
         <div class="footer-container">

@@ -37,10 +37,25 @@ body {
 }
 
 .contain1 {
-    display: flex;
+   display: flex;
+    margin: auto;
 }
 
+.content1 {
+    display: flex;
+    margin: auto;
+}
+
+.para1 {
+ justify-content: space-evenly;
+    padding: 10px;
+    margin: auto;
+}
+
+
+
 .button {
+    display: flex;
     margin: auto;
     
 }
@@ -52,5 +67,9 @@ body {
     background-color: #253451;
     color: #f8f7f9;
     border-radius: 8%;
-    
+    margin: auto;
+}
+
+.btn:hover {
+    background-color: #515d74;
 }
