@@ -52,7 +52,7 @@
 
     <div class="contain">
         <div class="content">
-            <p class="para1">Join us as we explore the history of the earth and of life in simple terms that are easy to understand. <br> This tour is tailored for children aged 7-12 and will help them to be able to confidently answer the following questions:</p>
+            <p class="para">Join us as we explore the history of the earth and of life in simple terms that are easy to understand. <br> This tour is tailored for children aged 7-12 and will help them to be able to confidently answer the following questions:</p>
         </div>
         <div class="content1">
 
@@ -74,12 +74,39 @@
     </div>
 
     <div class="contain1">
-        <div class="btn">
-            <a>
-                <button id="btn">Book Tour</button>
-            </a>
+        
+        <form netlify name="children's" class="form">
+            <div class="content1">
+            
+                <p class="para1">
+                    Your Name:
+                    <label class="field"><input type="text" name="name"></label>
+                </p>
+                <p class="para1">
+                    Email:
+                    <label class="field"><input type=text name="email"></label>
+                </p>
+                <p class="para1">
+                    Number Of Devices:
+                    <label class="field"><input type=text name="devices"></label>
+                </p>
+                
+                
+                <p class="para1">
+                    <select name="dates[]" multiple>
+                    <option value="02/05/2023">02/05/2023 @ 12:00pm CST</option>
+                    <option value="02/10/2023">02/10/2023 @ 01:00pm CST</option>
+                    <option value="02/11/2023">02/11/2023 @ 02:00pm CST</option>
+                </select>
+            </p>
         </div>
-    </div>
+            
+        <div class="button">
+            <button class="btn" type="submit" name="submit">Book Tour</button>
+    </form>
+    
+</div>
+</div>
 
     <footer class="footer">
         <div class="footer-container">

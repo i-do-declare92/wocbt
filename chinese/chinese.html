@@ -46,31 +46,59 @@
         </div>
 
 
-        <div class="contain">
+        <div class="container">
             <div class="img">
                 <img id="img" src="../imgs/chinese.png">
             </div>
         </div>
 
-        <div class="contain1">
-            <div class="content1">
+        <div class="contain">
+            <div class="content">
                 <p class="para">在现代科学出现之前大约 3000 年，圣经的创世记开篇写下了也许是有史以来最著名的一句话：“<b>起初上帝创造天地</b>。”</p>
             </div>
-            <div class="content1">
+            <div class="content">
                 <p class="para">执笔者摩西用最简单的语言详细描述了地球的逐步形成。时至今日，这一古老的记录仍然是科学界和宗教界人士热议的话题。 圣经的说法可信吗？ 它对创造的记载到底有多准确呢？</p>
             </div>
-            <div class="content1">
+            <div class="content">
                 <p class="para">请随我一起，在线参观芝加哥菲尔德博物馆<b>“进化的星球”</b>展览。穿越时空探索地球和生命的历史，寻找令人惊叹的化石证据。</p>
             </div>
         </div>
 
-        <div class="contain2">
-            <div class="button">
-                <a>
-                    <button id="btn">预约导览</button>
-                </a>
+        <div class="contain1">
+        
+            <form netlify name="children's" class="form">
+                <div class="content1">
+                
+                    <p class="para1">
+                        Your Name:
+                        <label class="field"><input type="text" name="name"></label>
+                    </p>
+                    <p class="para1">
+                        Email:
+                        <label class="field"><input type=text name="email"></label>
+                    </p>
+                    <p class="para1">
+                        Number Of Devices:
+                        <label class="field"><input type=text name="devices"></label>
+                    </p>
+                    
+                    
+                    <p class="para1">
+                        <select name="dates[]" multiple>
+                        <option value="02/05/2023">02/05/2023 @ 12:00pm CST</option>
+                        <option value="02/10/2023">02/10/2023 @ 01:00pm CST</option>
+                        <option value="02/11/2023">02/11/2023 @ 02:00pm CST</option>
+                    </select>
+                </p>
             </div>
-        </div>
+                
+            <div class="button">
+                <button class="btn" type="submit" name="submit">Book Tour</button>
+        </form>
+        
+    </div>
+    </div>
+    
 
 
         <footer class="footer">
