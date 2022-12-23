@@ -1,15 +1,13 @@
 body {
     background-color: #f8f7f9;
+    margin: 0px;
 }
 
 .contain {
     display: flex;
 }
 
-.content {
-    display: flex;
-    
-}
+ 
 
 .image {
     width: 100%;
@@ -20,7 +18,7 @@ body {
 }
 
 .para {
-    
+    padding: 0px;
     margin: auto;
 }
 
@@ -33,10 +31,27 @@ body {
     
 }
 
+.subscription {
+    padding: 10px;
+}
+
 .contain1 {
     display: flex;
     
 }
+
+.container {
+    display: flex;
+}
+
+.contain2 {
+    justify-content: space-evenly;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+
 
 .form1 {
     margin: auto;
@@ -74,8 +89,11 @@ input {
 
 #image2 {
     align-items: right;
+
     margin: auto;
 }
+
+
 
 button {
     background-color: #253451;
