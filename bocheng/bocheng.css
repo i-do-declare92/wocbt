@@ -1,4 +1,78 @@
 body {
     background-color: #f8f7f9;
-    margin: 0;
+    margin: 0px;
+}
+
+
+.contain {
+    display: flex;
+}
+
+.para1 {
+    margin: 5%;
+}
+
+.bocheng{
+    width: 75%;
+    height: auto;
+    margin: auto;
+}
+
+.bocheng1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.about {
+    text-align: center;
+}
+
+.images {
+    display: flex;
+}
+
+.contain2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#paypal {
+    margin: auto;
+}
+
+#zelle {
+    margin: auto;
+}
+
+#apple {
+    margin: auto;
+}
+
+.para3 {
+    margin: auto;
+}
+
+.images1 {
+    display: flex;
+}
+
+.contain2 {
+    justify-content: space-evenly;
+}
+
+#venmo {
+    margin: auto;
+}
+
+#cashapp {
+    margin: auto;
+}
+
+#cheque {
+    margin: auto;
+}
+
+.para4 {
+    margin: auto;
 }
