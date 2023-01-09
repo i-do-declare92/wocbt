@@ -17,9 +17,11 @@ body {
 .contain1 {
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
 }
 
 .card1 {
+    width: 100%;
     padding: 20px;
     background-color: #e0e0db;
     text-align: center;
@@ -52,18 +54,20 @@ body {
     color: #fff;
     width: 150px;
     height: 55px;
-    border-radius: 7%;
+    border-radius: 15pt;
     font-size: 15px;
     border-style: none;
     
 }
 
 .contain2 {
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .card2 {
+    width: 100%;
     padding: 20px;
     background-color: #e0e0db;
     text-align: center;
@@ -96,7 +100,7 @@ body {
     color: #fff;
     width: 150px;
     height: 55px;
-    border-radius: 7%;
+    border-radius: 15pt;
     font-size: 15px;
     border-style: none;
 }
@@ -107,5 +111,5 @@ button:hover {
 
 .contain3 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }

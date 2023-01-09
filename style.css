@@ -224,7 +224,7 @@ button:hover {
 
 .contain5 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .evan {
@@ -271,7 +271,7 @@ button:hover {
 .contain6 {
     
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .vanessa {
@@ -316,7 +316,7 @@ button:hover {
 
 .contain8 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .bocheng {
@@ -352,11 +352,6 @@ button:hover {
     padding-left: 10px;
     padding-right: 10px;
     margin: auto;
-}
-
-.contain7 {
-    display: flex;
-    justify-content: space-around;
 }
 /* This is the end of the body */
 
