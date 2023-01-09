@@ -194,7 +194,7 @@ justify-content: space-evenly;
     color:#FFF;
     width: 200px;
     height: 75px;
-    border-radius: 7%;
+    border-radius: 15pt;
     font-size: 20px;
     cursor: pointer;
     margin: auto;
@@ -245,7 +245,7 @@ button:hover {
     color:#FFF;
     width: 200px;
     height: 65px;
-    border-radius: 7%;
+    border-radius: 15pt;
     font-size: 15px;
     cursor: pointer;
     
@@ -292,7 +292,7 @@ button:hover {
     color:#FFF;
     width: 200px;
     height: 65px;
-    border-radius: 7%;
+    border-radius: 15pt;
     font-size: 15px;
     margin: auto;
     border-style: none;
@@ -305,6 +305,46 @@ button:hover {
 }
 
 #para6 {
+    font-size: 20px;
+    width: 75%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+}
+
+.contain8 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bocheng {
+    padding: 20px;
+    background-color: #e0e0db;
+    text-align: center;
+}
+
+#bocheng1 {
+    padding: 10px;
+    border-radius: 180%;
+    height: 350px;
+    width: 350px;
+}
+
+.btn4 {
+    background-color: #253451;
+    color: #fff;
+    width: 200px;
+    height: 65px;
+    border-radius: 15pt;
+    font-size: 15px;
+    margin: auto;
+    border-style: none;
+    cursor: pointer;
+}
+
+#para7 {
     font-size: 20px;
     width: 75%;
     padding-top: 10px;
