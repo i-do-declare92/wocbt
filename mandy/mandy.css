@@ -47,3 +47,98 @@
 body {
     background-color: #f8f7f9;
 }
+
+.contain {
+    display: flex;
+    
+}
+
+.para {
+    font-size: 18px;
+    margin: 5%;
+
+}
+
+.evan {
+    width: 50%;
+    height: 40%;
+    margin: auto;
+}
+
+    .content {
+    justify-content: space-around;
+}
+
+#evan {
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.contain1 {
+    
+    
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.content2 {
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.about {
+    text-align: center;
+}
+
+.para2 {
+    font-size: 18px;
+    margin: 5%;
+}
+
+.images {
+    display: block;
+}
+
+.contain1 {
+    display: block;
+    text-align: center;
+}
+
+
+#paypal {
+    text-align: center;
+    margin: auto;
+}
+
+#zelle {
+    margin: auto;
+}
+
+#apple {
+    margin: auto;
+}
+
+.para3 {
+    font-size: 18px;
+    margin: bottom;
+}
+
+.btn {
+    
+    background-color: #253451;
+    color:#FFF;
+    width: 200px;
+    height: 75px;
+    border-radius: 15pt;
+    font-size: 18px;
+    cursor: pointer;
+    margin: auto;
+    border-style: none;
+    
+}
+
+button:hover {
+    background-color: #515d74;
+}
