@@ -22,7 +22,7 @@ I.W. reconstructed the navigation bar, footer, and was part of the initial CSS o
 B.J. is the content creator and Chinese tour presenter that will be unvieled before this site will be. All of the content in Chinese is translated by B.J. along with the title of the Chinese tour image. 
 
 ## Backend Form Data Collection
-Data protection is key these days. We will be deleting everyone's tour data every week starting 02/01/2023. The only data we will be storing will be the email accounts that want the newsletter subscription only for the newsletter we send out at the end of every month.
+Data protection is key these days. We will be deleting everyone's tour data every week starting 02/01/2023. The only data we will be storing will be the subscribers Names and Email accounts that want the newsletter subscription  we send out at the end of every month.
 
 ### Where will the stored data go?
-In a simple file that can only be accessed through Wonders Of Creation Virtual Bible Tours. We are partnering with Netlify to stay extra safe in these matters.
+In a simple file that can only be accessed through Wonders Of Creation Virtual Bible Tours. The only data we collect is Names and Emails and nothing else. We only market to our subscribers that has willfully given their information to us. We are partnering with Netlify to stay extra safe in these matters.
