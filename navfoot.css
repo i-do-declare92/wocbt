@@ -18,7 +18,7 @@ Once you have completed these steps, you should have a functional hamburger menu
         width: 100%;
         margin: auto;
     }
-    #navbar_container {
+    /* #navbar_container {
         position: fixed;
         left: -100%;
         top: 5rem;
@@ -43,8 +43,26 @@ Once you have completed these steps, you should have a functional hamburger menu
     .burger {
         display: block;
         cursor: pointer;
+    } */
+    
+    #navbar_container {
+        display: none;
     }
+
+    #logo {
+        margin: auto;
     }
+
+    #hamburger {
+        display: block;
+        width: fit-content;
+        margin: auto;
+        font-size: 2em;
+        text-decoration: none;
+        color: black;
+      }
+    }
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -60,6 +78,10 @@ Once you have completed these steps, you should have a functional hamburger menu
     body {
         width: 100%;
         margin: auto;
+    }
+
+    #hamburger {
+        display: none;
     }
 
 }
