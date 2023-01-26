@@ -53,7 +53,7 @@ Once you have completed these steps, you should have a functional hamburger menu
         margin: auto;
     }
 
-    #hamburger {
+    .hamburger {
         display: block;
         width: fit-content;
         margin: auto;
@@ -62,7 +62,7 @@ Once you have completed these steps, you should have a functional hamburger menu
         color: black;
       }
     }
-}
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -80,7 +80,7 @@ Once you have completed these steps, you should have a functional hamburger menu
         margin: auto;
     }
 
-    #hamburger {
+    .hamburger {
         display: none;
     }
 
@@ -107,18 +107,25 @@ Once you have completed these steps, you should have a functional hamburger menu
 /* This is the start of the navigation bar for ALL 
 the pages to stay in unison */
 
+.burger_container {
+    position: relative;
+}
+
+
+
 .burger {
     display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
+
+.show {display:block;}
 
 .bar {
     display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: #101010;
 }
 
 .logo {
