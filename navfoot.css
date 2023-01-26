@@ -1,5 +1,15 @@
 /*Mobile first*/
 
+/*Create the HTML structure for the menu, using an unordered list for the menu items and a button for the hamburger icon.
+
+Use CSS to style the menu and the hamburger icon. You can use CSS to hide the menu by default and show it only when the hamburger icon is clicked.
+
+Use JavaScript to toggle the visibility of the menu when the hamburger icon is clicked. You can add an event listener to the hamburger icon button that will execute a function that toggles the class name of the menu.
+
+Once you have completed these steps, you should have a functional hamburger menu that can be expanded and collapsed by clicking the hamburger icon.*/
+
+
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     body {
