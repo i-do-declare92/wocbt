@@ -11,94 +11,14 @@ Use JavaScript to toggle the visibility of the menu when the hamburger icon is c
 Once you have completed these steps, you should have a functional hamburger menu that can be expanded and collapsed by clicking the hamburger icon.*/
 
 
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 768px) {
-    body {
-        width: 100%;
-        margin: auto;
-    }
-    
-    #navbar_container {
-        display: none;
-    }
-
-    #logo {
-        margin: auto;
-    }
-
-    .logo {
-        border-radius: 180%;
-        height: 6em;
-        width: 6em;
-    }
-
-    .hamburger {
-        display: block;
-        width: fit-content;
-        margin: auto;
-        font-size: 2em;
-        text-decoration: none;
-        color: black;
-      }
-    }
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 769px) and (max-width: 900px) {
-    body {
-        width: 100%;
-        margin: auto;
-    }
-
-    .hamburger {
-        display: none;
-    }
-
-}
-
-
 /* This is the start of the navigation bar for ALL 
 the pages to stay in unison */
 
-.burger_container {
-    position: relative;
-}
 
-
-
-.burger {
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    text-align: center;
-    left: 50%;
-    transform: translate(-50%, 5%);
-}
-
-.show {display:block;}
-
-.bar {
-    display: block;
-    text-decoration: none;
-    background-color: rgb(231, 231, 231);
-    color: black;
-    font-size: 1.3em;
-    line-height: 1.8em;
-    border-bottom: 1px grey dashed;
-}
-
-a .bar:hover {
-    background-color: rgb(212, 212, 212);
-}
-
-@media only screen and (min-width: 769px) {
-    .logo {
-        border-radius: 180%;
-        width:10em; 
-        height:10em;
-    }
+.logo {
+    border-radius: 180%;
+    width:10em; 
+    height:10em;
 }
 
 .header_container {
@@ -110,7 +30,6 @@ a .bar:hover {
     flex-wrap: nowrap;
     flex: 1 0 67%;
     align-items: center;
-    padding: 1.5em;
 }
 
 #navbar_container {
@@ -139,8 +58,8 @@ a .bar:hover {
 }
 
 #navbar a:link {
-color: #000;
-text-decoration: none;
+    color: #000;
+    text-decoration: none;
 }
 
 #navbar a:visited {
@@ -187,4 +106,93 @@ footer a:visited {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+/* Styling for the hamburger navigation menu for the responsive media queries that follow this section */
+
+.burger_container {
+    position: relative;
+}
+
+.hamburger {
+    display: none;
+}
+
+.burger {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 5%);
+}
+
+.show {display:block;}
+
+.bar {
+    display: block;
+    text-decoration: none;
+    background-color: rgb(231, 231, 231);
+    color: black;
+    font-size: 1.3em;
+    line-height: 1.8em;
+    border: 1px grey dashed;
+    border-top: none;
+}
+
+a .bar:hover {
+    background-color: rgb(212, 212, 212);
+}
+
+
+/* This is the beginning of the responsive media queries for the navbar*/
+
+@media only screen and (max-width: 768px) {
+    body {
+        width: 100%;
+        margin: auto;
+    }
+    
+    .header {
+        padding: 0.5em;
+    }
+    
+    #navbar_container {
+        display: none;
+    }
+
+    #logo {
+        margin: auto;
+    }
+    
+    .logo {
+        border-radius: 180%;
+        height: 6em;
+        width: 6em;
+    }
+    
+    .hamburger {
+        display: block;
+        width: fit-content;
+        margin: auto;
+        font-size: 2em;
+        text-decoration: none;
+        color: black;
+    }
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+    body {
+        width: 100%;
+        margin: auto;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
 }

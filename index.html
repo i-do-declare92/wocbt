@@ -10,15 +10,6 @@
 </head>
 <body>
 
-    <!--
-<button id="hamburger-icon">&#9776;</button>
-    <ul id="menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
--->
-
     <!--This is the top bar. Keep it the same for every page! Keeps the asthetic ;-) -->
     <div class="header_container">
         <div class="header">
@@ -63,6 +54,7 @@
             <a class="bar" href="./donate/donate.html">Donate</a>
             <a class="bar" href="./faq/faq.html">FAQ's</a>
             <a class="bar" href="./contact/contact.html">Contact Us</a>
+            <a class="bar" href="./subscribe/subscribe.html">Subscribe</a>
             <a class="bar" href="./ourFriends/ourfriends.html" style="border-bottom: none; border-radius: 0 0 6px 6px;">Our Friends</a>
         </div>
     </div>
@@ -239,7 +231,7 @@
     </footer>
 
     <script src="/navfoot.js"></script>
-    <script>
+    {% comment %} <script>
         function myFunction() {
           document.getElementById("drop").classList.toggle("show");
         }
@@ -256,6 +248,6 @@
                 }
             }
         }
-    </script>
+    </script> {% endcomment %}
 </body>
 </html>
