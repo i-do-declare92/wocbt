@@ -24,7 +24,7 @@
         <div class="header">
             <div id="logo">
                 <a href="./index.html">
-                    <img class="logo" src="./imgs/wondersLogo.png" alt="wonders of creation bible tours logo" style="width:10em; height:10em" />
+                    <img class="logo" src="./imgs/wondersLogo.png" alt="wonders of creation bible tours logo" />
                 </a>
             </div>
             <nav id="navbar_container">
@@ -58,12 +58,12 @@
     <div class="burger_container">
         <button onclick="myFunction()" class="hamburger">&#9776;</button>
         <div id="drop" class="burger">
-            <span class="bar">test</span>
-            <span class="bar">test</span>
-            <span class="bar">test</span>
-            <span class="bar">test</span>
-            <span class="bar">test</span>
-            <span class="bar">test</span>
+            <a class="bar" href="./index.html" style="border-radius: 6px 6px 0 0;">Home</a>
+            <a class="bar" href="./booktour/booktour.html">Book a Tour</a>
+            <a class="bar" href="./donate/donate.html">Donate</a>
+            <a class="bar" href="./faq/faq.html">FAQ's</a>
+            <a class="bar" href="./contact/contact.html">Contact Us</a>
+            <a class="bar" href="./ourFriends/ourfriends.html" style="border-bottom: none; border-radius: 0 0 6px 6px;">Our Friends</a>
         </div>
     </div>
 
@@ -240,25 +240,22 @@
 
     <script src="/navfoot.js"></script>
     <script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("drop").classList.toggle("show");
-}
+        function myFunction() {
+          document.getElementById("drop").classList.toggle("show");
+        }
 
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.hamburger')) {
-    var dropdowns = document.getElementsByClassName("burger");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
+        window.onclick = function(event) {
+            if (!event.target.matches('.hamburger')) {
+                var dropdowns = document.getElementsByClassName("burger");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
 </body>
 </html>

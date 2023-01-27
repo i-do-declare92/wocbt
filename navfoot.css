@@ -13,37 +13,11 @@ Once you have completed these steps, you should have a functional hamburger menu
 
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     body {
         width: 100%;
         margin: auto;
     }
-    /* #navbar_container {
-        position: fixed;
-        left: -100%;
-        top: 5rem;
-        flex-direction: column;
-        background-color: #fff;
-        width: 100%;
-        border-radius: 10px;
-        text-align: center;
-        transition: 0.3s;
-        box-shadow:
-            0 10px 27px rgba(0, 0, 0, 0.05);
-    }
-
-    .nav-bar.active {
-        left: 0;
-    }
-
-    .nav-link {
-        margin: 2.5rem 0;
-    }
-
-    .burger {
-        display: block;
-        cursor: pointer;
-    } */
     
     #navbar_container {
         display: none;
@@ -51,6 +25,12 @@ Once you have completed these steps, you should have a functional hamburger menu
 
     #logo {
         margin: auto;
+    }
+
+    .logo {
+        border-radius: 180%;
+        height: 6em;
+        width: 6em;
     }
 
     .hamburger {
@@ -63,18 +43,8 @@ Once you have completed these steps, you should have a functional hamburger menu
       }
     }
 
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    body {
-        width: 100%;
-        margin: auto;
-    }
-
-}
-
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) and (max-width: 900px) {
     body {
         width: 100%;
         margin: auto;
@@ -86,23 +56,6 @@ Once you have completed these steps, you should have a functional hamburger menu
 
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    body {
-        width: 100%;
-        margin: auto;
-    }
-
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    body {
-        width: 100%;
-        margin: auto;
-    }
-
-}
 
 /* This is the start of the navigation bar for ALL 
 the pages to stay in unison */
@@ -116,20 +69,36 @@ the pages to stay in unison */
 .burger {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 5%);
 }
 
 .show {display:block;}
 
 .bar {
     display: block;
+    text-decoration: none;
+    background-color: rgb(231, 231, 231);
+    color: black;
+    font-size: 1.3em;
+    line-height: 1.8em;
+    border-bottom: 1px grey dashed;
 }
 
-.logo {
-    border-radius: 180%;
+a .bar:hover {
+    background-color: rgb(212, 212, 212);
+}
+
+@media only screen and (min-width: 769px) {
+    .logo {
+        border-radius: 180%;
+        width:10em; 
+        height:10em;
+    }
 }
 
 .header_container {
