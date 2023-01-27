@@ -111,6 +111,10 @@ body {
     padding: 10px;
 }
 
+#btn:hover {
+    background-color: #515d74;
+}
+
 #btn {
     
     background-color: #253451;
@@ -130,9 +134,6 @@ body {
     padding: 10px;
 }
 
-button:hover {
-    background-color: #515d74;
-}
 
 .contain1 {
     display: flex;
