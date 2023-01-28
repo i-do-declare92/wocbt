@@ -164,6 +164,7 @@ button {
     .sixdays{
         display: block;
         margin: auto;
+        height: 190px;
         padding-top: 1em;
     }
 
@@ -171,4 +172,40 @@ button {
         font-size: 17px;
         padding: 12px;
     }
+
+    .contain1 {
+        display: table;
+        padding-top: 10px;
     }
+
+    .contain1 div:nth-child(1) {
+        display: table-footer-group;
+    }
+
+    .children {
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+    
+        .origin {
+            width: 80%;
+            height: 300px;
+            margin: auto;
+            display: block;
+        }
+    
+        .giants {
+            width: 80%;
+            height: 250px;
+            margin: auto;
+            display: block;
+        }
+    
+        #chinese {
+            width: 80%;
+            height: 250px;
+            margin: auto;
+            display: block;
+        }
+}
