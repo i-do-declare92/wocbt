@@ -1,4 +1,4 @@
-
+// simple js script to make the mobile view navmenu drop work   
         function myFunction() {
           document.getElementById("drop").classList.toggle("show");
         }
