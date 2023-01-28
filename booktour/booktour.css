@@ -1,48 +1,6 @@
 /*Mobile first*/
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    body {
-        width: 100%;
-        margin: 0;
-    }
-    }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    body {
-        width: 100%;
-        margin: 0;
-    }
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    body {
-        width: 100%;
-        margin: 0;
-    }
-
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    body {
-        width: 100%;
-        margin: 0;
-    }
-
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    body {
-        width: 100%;
-        margin: 0;
-    }
-
-}
 
 body {
     margin: 0;
@@ -178,3 +136,39 @@ button {
     width: 650px;
     margin: auto;
 }
+
+
+
+/* Start of media queries */
+@media only screen and (max-width: 768px) {
+    
+    iframe {
+        width: 14em;
+        height: 9em;
+    }
+
+    .gb1 {
+        padding: 3em;
+    }
+    
+    .pb2 {
+        width: initial;
+        margin: auto;
+        font-size: 1.25em;
+    }
+
+    .contain {
+        display: block;
+    }
+
+    .sixdays{
+        display: block;
+        margin: auto;
+        padding-top: 1em;
+    }
+
+    .para1 {
+        font-size: 17px;
+        padding: 12px;
+    }
+    }
