@@ -332,7 +332,11 @@ and the start of the main body*/
     }
  
     #image2 {
-        display: none;
+        /* display: none; */
+        height: 20em;
+        width: 20em;
+        margin: auto;
+        display: block;
     }
  
     .image3 {
@@ -340,7 +344,11 @@ and the start of the main body*/
     }
  
     .image4 {
-        display: none;
+        /* display: none; */
+        height: 20em;
+        width: 20em;
+        margin: auto;
+        display: block;
     }
 
     .content {
