@@ -1,56 +1,9 @@
 /*Mobile first*/
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    body {
-        width: 100%;
-        margin: 0;
-    }
-    }
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    body {
-        width: 100%;
-        margin: 0;
-    }
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    body {
-        width: 100%;
-        margin: 0;
-    }
-
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    body {
-        width: 100%;
-        margin: 0;
-    }
-
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    body {
-        width: 100%;
-        margin: 0;
-    }
-
-}
 
 body {
     background-color: #f8f7f9;
     margin: 0;
-}
-
-.contain {
-    display: flex;
 }
 
 .image1 {
@@ -100,17 +53,17 @@ input {
     background-color: #515d74;
 }
 
-.btn1 {
+.btn1 {  
     background-color: #253451;
     color:#FFF;
     width: 200px;
-    height: 40px;
+    height: 75px;
     border-radius: 15pt;
-    padding: 10px;
-    font-size: 18px;
+    font-size: 20px;
     cursor: pointer;
     margin: auto;
     border-style: none;
+    
 }
 
 .contain3 {
@@ -139,4 +92,22 @@ input {
 .link {
     color: #2e4064;
     font-weight: bold;
+}
+
+/* Start of media queries */
+@media only screen and (max-width: 768px) {
+    .contain2 {
+        display: block;
+    }
+
+    .info {
+        width: 80%;
+        font-size: 18px;
+    }
+
+    .form {
+        width: 85%;
+        text-align: center;
+        padding-top: 5px;
+    }
 }
