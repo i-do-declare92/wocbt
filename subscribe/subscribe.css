@@ -120,18 +120,53 @@ input {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-    body {
+    .para1 {
+        width: 95%;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .contain1 {
+        width: 95%;
+    }
+
+    .subscription {
+        text-align: center;
+    }
+
+    input {
+        width: 85%;
+    }
+
+    .btn {
+    
+        background-color: #253451;
+        color:#FFF;
+        width: 200px;
+        height: 75px;
+        border-radius: 15pt;
+        font-size: 20px;
+        cursor: pointer;
+        margin: auto;
+        margin-top: 25px;
+        border-style: none;
+        
+    }
+
+    #image2 {
         width: 100%;
-        margin: 0;
+        margin-bottom: -10px;
     }
 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+/* @media only screen and (min-width: 992px) {
     body {
         width: 100%;
         margin: 0;
     }
 
-}
+} */
