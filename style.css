@@ -329,6 +329,7 @@ and the start of the main body*/
  
     #image1 {
         /* display: none; */
+        height: 12em;
     }
  
     #image2 {
