@@ -1,48 +1,7 @@
 /*Mobile first*/
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    body {
-        width: 100%;
-        margin: 0;
-    }
-    }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    body {
-        width: 100%;
-        margin: 0;
-    }
 
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    body {
-        width: 100%;
-        margin: 0;
-    }
-
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    body {
-        width: 100%;
-        margin: 0;
-    }
-
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    body {
-        width: 100%;
-        margin: 0;
-    }
-
-}
 
 /* This is the beginning of the body work. The images and content are going to have a checkerboard look */
 
@@ -61,6 +20,7 @@ body {
     background-size: cover;
     background-color: #e0e0db;
     margin-bottom: -4px;
+    
     
 }
 
@@ -84,7 +44,7 @@ body {
 }
 
 #header1 {
-    background-color: #e0e0db;
+    /* background-color: #e0e0db; */
     
     margin: 0px;
     padding: 12px;
@@ -97,7 +57,7 @@ body {
 }
 
 #para1 {
-    background-color: #e0e0db;
+    /* background-color: #e0e0db; */
     text-align: center;
     margin: 0px;
     padding: 12px;
@@ -125,6 +85,7 @@ and the start of the main body*/
     height: 400px;
     width: 400px;
     margin: auto;
+    
 }
 
 
@@ -162,9 +123,9 @@ and the start of the main body*/
 
 
 .contain3 {
-display: flex;
-justify-content: space-evenly;
-
+    display: flex;
+    justify-content: space-evenly;
+    
 }
 
 .image3{
@@ -199,8 +160,8 @@ justify-content: space-evenly;
 
 
 .contain4 {
-display: flex;
-justify-content: space-evenly;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #header4 {
@@ -273,7 +234,7 @@ justify-content: space-evenly;
 }
 
 .evan {
-    padding: 20px;
+    /* padding: 20px; */
     background-color: #e0e0db;
     text-align: center;
 }
@@ -283,19 +244,6 @@ justify-content: space-evenly;
     border-radius: 180%;
     height: 350px;
     width: 350px;
-}
-
-.btn2 {
-    background-color: #253451;
-    color:#FFF;
-    width: 200px;
-    height: 65px;
-    border-radius: 15pt;
-    font-size: 15px;
-    cursor: pointer;
-    
-    margin: auto;
-    border-style: none;
 }
 
 #header5 {
@@ -320,7 +268,7 @@ justify-content: space-evenly;
 }
 
 .vanessa {
-    padding: 20px;
+    /* padding: 20px; */
     background-color: #e0e0db;
     text-align: center;
 }
@@ -330,18 +278,6 @@ justify-content: space-evenly;
     border-radius: 180%;
     height: 350px;
     width: 350px;
-}
-
-.btn3 {
-    background-color: #253451;
-    color:#FFF;
-    width: 200px;
-    height: 65px;
-    border-radius: 15pt;
-    font-size: 15px;
-    margin: auto;
-    border-style: none;
-    cursor: pointer;
 }
 
 #header6 {
@@ -365,7 +301,7 @@ justify-content: space-evenly;
 }
 
 .bocheng {
-    padding: 20px;
+    /* padding: 20px; */
     background-color: #e0e0db;
     text-align: center;
 }
@@ -375,18 +311,6 @@ justify-content: space-evenly;
     border-radius: 180%;
     height: 350px;
     width: 350px;
-}
-
-.btn4 {
-    background-color: #253451;
-    color: #fff;
-    width: 200px;
-    height: 65px;
-    border-radius: 15pt;
-    font-size: 15px;
-    margin: auto;
-    border-style: none;
-    cursor: pointer;
 }
 
 #para7 {
@@ -400,3 +324,111 @@ justify-content: space-evenly;
 }
 /* This is the end of the body */
 
+
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+ 
+    #image1 {
+        /* display: none; */
+    }
+ 
+    #image2 {
+        display: none;
+    }
+ 
+    .image3 {
+        display: none;
+    }
+ 
+    .image4 {
+        display: none;
+    }
+
+    .content {
+        display: block;
+    }
+
+    #header1 {
+        width: inherit;
+        padding: 20px;
+        font-size: 1.8em;
+        line-height: normal;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    #para1 {
+        width: inherit;
+        padding: 20px;
+        text-align: left;
+        font-size: 1.3em;
+    }
+
+    .contain2 {
+        display: block;
+    }
+
+    #content2 {
+        width: auto;
+    }
+
+    .contain3 {
+        display: block;
+    }
+
+    .content3 {
+        width: auto;
+    }
+
+
+    .contain4 {
+        display: block;
+    }
+
+    .content4 {
+        width: auto;
+        height: auto;
+    }
+
+    .contain5 {
+        display: block;
+    }
+
+    #evan1 {
+        height: 20em;
+        width: 20em;
+    }
+
+    .contain6 {
+        display: block;
+    }
+
+    #vanessa1 {
+        height: 20em;
+        width: 20em;
+    }
+
+    .contain8 {
+        display: block;
+    }
+
+    .bocheng {
+        padding-bottom: 10px;
+    }
+    
+    #bocheng1 {
+        height: 20em;
+        width: 20em;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body {
+        width: 100%;
+        margin: 0;
+    }
+
+}

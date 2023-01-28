@@ -149,10 +149,6 @@ a .bar:hover {
 /* This is the beginning of the responsive media queries for the navbar*/
 
 @media only screen and (max-width: 768px) {
-    body {
-        width: 100%;
-        margin: auto;
-    }
     
     .header {
         padding: 0.5em;
@@ -179,6 +175,10 @@ a .bar:hover {
         font-size: 2em;
         text-decoration: none;
         color: black;
+    }
+
+    .footer-container {
+        padding: 0.5em;
     }
 }
 
