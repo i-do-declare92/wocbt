@@ -405,6 +405,10 @@ and the start of the main body*/
         display: block;
     }
 
+    .evan {
+        width: 100%;
+    }
+
     #evan1 {
         height: 20em;
         width: 20em;
@@ -412,6 +416,10 @@ and the start of the main body*/
 
     .contain6 {
         display: block;
+    }
+
+    .vanessa {
+        width: 100%;
     }
 
     #vanessa1 {
@@ -424,6 +432,7 @@ and the start of the main body*/
     }
 
     .bocheng {
+        width: 100%;
         padding-bottom: 10px;
     }
     
