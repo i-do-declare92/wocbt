@@ -234,7 +234,7 @@ and the start of the main body*/
 }
 
 .evan {
-    /* padding: 20px; */
+    width: 54em;
     background-color: #e0e0db;
     text-align: center;
 }
@@ -268,7 +268,7 @@ and the start of the main body*/
 }
 
 .vanessa {
-    /* padding: 20px; */
+    width: 54em;
     background-color: #e0e0db;
     text-align: center;
 }
@@ -301,9 +301,10 @@ and the start of the main body*/
 }
 
 .bocheng {
-    /* padding: 20px; */
+    width: 54em;
     background-color: #e0e0db;
     text-align: center;
+    margin-bottom: 5px;
 }
 
 #bocheng1 {
