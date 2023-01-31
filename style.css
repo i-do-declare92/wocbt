@@ -1,11 +1,13 @@
 /*Mobile first*/
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
 
 
 
 /* This is the beginning of the body work. The images and content are going to have a checkerboard look */
 
 body {
+    
+    font-family: 'Rubik', sans-serif;
     background-color: #f8f7f9;
     margin: 0;
 }
@@ -33,6 +35,7 @@ body {
 
 
 .content {
+    font-family: 'Rubik', sans-serif;
     display: flex;
     justify-content: space-evenly;
     animation-name: content;
@@ -58,6 +61,7 @@ body {
 
 #para1 {
     /* background-color: #e0e0db; */
+    font-family: 'Rubik', sans-serif;
     text-align: center;
     margin: 0px;
     padding: 12px;
@@ -95,11 +99,12 @@ and the start of the main body*/
 #header2 {
     
     font-size: 25px;
-    
+    font-family: 'Rubik', sans-serif;
     margin: auto;
 }
 
 #content2 {
+    font-family: 'Rubik', sans-serif;
     height: 400px;
     width: 400px;
     padding: 10px;
@@ -108,7 +113,7 @@ and the start of the main body*/
 
 #para2 {
     font-size: 20px;
-    
+    font-family: 'Rubik', sans-serif;
     padding: 10px;
     
 }
