@@ -15,7 +15,6 @@ body {
     color: white;
     font-size: 2.5em;
     text-align: center;
-    background: #0000006e;
     padding: 3em 0 2em 0;
     -webkit-text-stroke-width: 0.7px;
     -webkit-text-stroke-color: #000000bf;
@@ -132,14 +131,19 @@ body {
         margin: auto;
     }
 
+    #banner_background {
+        background-color: #000000bf;
+        width: 80%;
+        margin: auto;
+    }
+
     #banner_para {
         position: absolute;
         color: white;
         font-size: 22px;
-        width: 80%;
+        width: 100%;
         text-align: center;
-        background: #0000006e;
-        padding: 1em 1.2em 0 1.2em;
+        padding: 0;
         -webkit-text-stroke-width: 0.7px;
         -webkit-text-stroke-color: #000000bf;
         font-family: sans-serif;
