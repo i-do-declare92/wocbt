@@ -20,7 +20,7 @@ body {
     padding: 2em 2em 2em 2em;
     -webkit-text-stroke-width: 0.7px;
     -webkit-text-stroke-color: #000000;
-    font-family: sans-serif;
+    
     background: #00000070;
     width: 85%;
     margin: auto;
@@ -172,7 +172,7 @@ body {
         padding: 0;
         -webkit-text-stroke-width: 0.5px;
         -webkit-text-stroke-color: #000000bf;
-        font-family: sans-serif;
+        
         background: #2828288c;
         width: 80%;
         margin: auto;

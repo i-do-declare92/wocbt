@@ -52,7 +52,7 @@ body {
     margin: 0px;
     padding: 12px;
     font-size: 2rem;
-    font-family: sans-serif;
+    
     font-weight: 280;
     font-style: normal;
     line-height: 1.5;
@@ -67,7 +67,7 @@ body {
     padding: 12px;
     line-height: 1.5;
     font-size: 1.5rem;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+   
     font-style: normal;
     width: 500px;
 }
