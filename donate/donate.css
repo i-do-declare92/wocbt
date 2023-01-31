@@ -137,6 +137,10 @@ body {
         margin: auto;
     }
 
+    .banner {
+        display: block;
+    }
+
     #banner_para {
         position: absolute;
         color: white;
