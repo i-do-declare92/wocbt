@@ -47,6 +47,12 @@ body {
     margin: auto;
 }
 
+#revolut {
+    margin: auto;
+    height: 225px;
+    width: 225px;
+}
+
 #apple {
     margin: auto;
 }
