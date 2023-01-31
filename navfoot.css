@@ -14,6 +14,12 @@ Once you have completed these steps, you should have a functional hamburger menu
 /* This is the start of the navigation bar for ALL 
 the pages to stay in unison */
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
 
 .logo {
     border-radius: 180%;
