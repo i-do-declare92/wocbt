@@ -341,7 +341,9 @@ and the start of the main body*/
     #image2 {
         /* display: none; */
         height: 20em;
-        width: 20em;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
         margin: auto;
         display: block;
     }
@@ -353,7 +355,9 @@ and the start of the main body*/
     .image4 {
         /* display: none; */
         height: 20em;
-        width: 20em;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
         margin: auto;
         display: block;
     }
@@ -386,6 +390,7 @@ and the start of the main body*/
 
     #content2 {
         width: auto;
+        height: auto;
     }
 
     .contain3 {
@@ -394,6 +399,7 @@ and the start of the main body*/
 
     .content3 {
         width: auto;
+        height: auto;
     }
 
 
@@ -406,6 +412,10 @@ and the start of the main body*/
         height: auto;
     }
 
+    .link {
+        font-size: initial;
+    }
+
     .contain5 {
         display: block;
     }
@@ -415,8 +425,8 @@ and the start of the main body*/
     }
 
     #evan1 {
-        height: 20em;
-        width: 20em;
+        height: auto;
+        width: 85%;
     }
 
     .contain6 {
@@ -428,8 +438,8 @@ and the start of the main body*/
     }
 
     #vanessa1 {
-        height: 20em;
-        width: 20em;
+        height: auto;
+        width: 85%;
     }
 
     .contain8 {
@@ -442,8 +452,8 @@ and the start of the main body*/
     }
     
     #bocheng1 {
-        height: 20em;
-        width: 20em;
+        height: auto;
+        width: 85%;
     }
 
 }
