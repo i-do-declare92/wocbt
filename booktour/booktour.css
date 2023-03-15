@@ -27,6 +27,15 @@ body {
     color:#f8f7f9;
 }
 
+#link {
+    color:#f8f7f9;
+    text-decoration: none;
+}
+
+#link:hover {
+    color:#515d74;
+}
+
 .content {
     text-align: center;
     font-size: calc(1.4 * 1rem);
