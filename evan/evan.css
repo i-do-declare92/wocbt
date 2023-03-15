@@ -29,6 +29,13 @@ body {
     text-decoration: underline;
 }
 
+img {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+
 
 .contain1 {
     
@@ -74,6 +81,7 @@ body {
 }
 
 .para3 {
+    display: grid;
     margin: auto;
 }
 
@@ -98,7 +106,17 @@ body {
 }
 
 .para4 {
+    display: flow-root;
     margin: auto;
+}
+
+#link {
+    color: #253451;
+    text-decoration: none;
+}
+
+#link:hover {
+    color: #515d74;
 }
 
 /* Start of media queries */
