@@ -21,14 +21,15 @@ body {
     left:50%;
     transform: translate(-50%, -50%);
     padding: 20px;
-    background-color: #253451;
-    border: 1px solid #253451;
+    background-color: #f8f7f9;
+    border: 1px solid #000;
     display: block;
-    color:#f8f7f9;
+    color:#000;
 }
 
 #link {
-    color:#f8f7f9;
+    color: #253451;
+    font-weight: bold;
     text-decoration: none;
 }
 
