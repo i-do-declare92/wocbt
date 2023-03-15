@@ -13,6 +13,19 @@ body {
     padding: 1.5em;
 }
 
+/*Popup message for Evan's haitus*/
+
+#popup-msg {
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #253451;
+    border: 1px solid #253451;
+    display: block;
+    color:#f8f7f9;
+}
 
 .content {
     text-align: center;
