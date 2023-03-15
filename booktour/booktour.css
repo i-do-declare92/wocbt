@@ -25,16 +25,17 @@ body {
     border: 1px solid #000;
     display: block;
     color:#000;
+    font-size: 18px;
 }
 
 #link {
-    color: #253451;
+    color: #193e88;
     font-weight: bold;
     text-decoration: none;
 }
 
 #link:hover {
-    color:#515d74;
+    color:#85aaf0;
 }
 
 .content {
