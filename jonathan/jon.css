@@ -1,0 +1,139 @@
+/*Mobile first*/
+
+body {
+    background-color: #f8f7f9;
+    margin: 0;
+}
+
+.contain {
+    display: flex;
+    
+}
+
+.para {
+    margin: 5%;
+
+}
+
+.evan {
+    height: auto;
+    margin: auto;
+}
+
+    .content {
+    justify-content: space-around;
+}
+
+#evan {
+    text-align: center;
+    text-decoration: underline;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+
+
+.contain1 {
+    
+    
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.content2 {
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.about {
+    text-align: center;
+}
+
+.para2 {
+    margin: 5%;
+}
+
+.images {
+    display: flex;
+}
+
+.contain2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#paypal {
+    margin: auto;
+}
+
+#zelle {
+    margin: auto;
+}
+
+#apple {
+    margin: auto;
+}
+
+.para3 {
+    display: grid;
+    margin: auto;
+}
+
+.images1 {
+    display: flex;
+}
+
+.contain2 {
+    justify-content: space-evenly;
+}
+
+#venmo {
+    margin: auto;
+}
+
+#cashapp {
+    margin: auto;
+}
+
+#cheque {
+    margin: auto;
+}
+
+.para4 {
+    display: flow-root;
+    margin: auto;
+}
+
+#link {
+    color: #253451;
+    text-decoration: none;
+}
+
+#link:hover {
+    color: #515d74;
+}
+
+/* Start of media queries */
+@media only screen and (max-width: 768px) {
+    .evan {
+        width: 100%;
+    }
+
+    .contain {
+        display: block;
+    }
+
+    .contain1 {
+        display: block;
+    }
+
+    .contain2 {
+        display: block;
+    }
+}
