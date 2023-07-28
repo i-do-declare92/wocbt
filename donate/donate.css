@@ -15,38 +15,82 @@ body {
 
 #banner_para {
     color: white;
-    font-size: 2.5em;
+    font-size: 2.7em;
     text-align: center;
-    padding: 2em 2em 2em 2em;
+    padding: 3em 2em 3em 2em;
     -webkit-text-stroke-width: 0.7px;
     -webkit-text-stroke-color: #000000;
-    
     background: #00000070;
-    width: 85%;
     margin: auto;
 }
 
 .banner1 {
     width: 100%;
-    /* height: 500px; */
     padding-bottom: 10px;
 }
 
-.contain1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
+#team {
+    text-align: center;
+    font-size: 2.2em;
+}
+
+.card_container {
     display: flex;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card_sleeve {
+    background-color: transparent;
+    width: 400px;
+    height: 550px;
+    perspective: 800px;
+}
+
+.contain1 {
+    position: relative;
     width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    -webkit-transition: transform 0.6s;
+    -moz-transition: transform 0.6s;
+    -ms-transition: transform 0.6s;
+    -o-transition: transform 0.6s;
+}
+
+.contain1.flipped {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.card, .card_back {
+    position: absolute;
+    background-color: #e0e0db;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 }
 
 .card {
-    width: 100%;
-    padding: 20px 0 20px 0;
-    background-color: #e0e0db;
-    text-align: center;
+    transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    -ms-transform: rotateX(0deg);
+    -o-transform: rotateX(0deg);
+}
+
+.card_back {
+    transform: rotateX(0deg) rotateY(180deg);
+    -webkit-transform: rotateX(0deg) rotateY(180deg);
+    -moz-transform: rotateX(0deg) rotateY(180deg);
+    -ms-transform: rotateX(0deg) rotateY(180deg);
+    -o-transform: rotateX(0deg) rotateY(180deg);
 }
 
 .evan {
@@ -137,15 +181,6 @@ body {
     .evan {
         padding: 10px;
         border-radius: 180%;
-        height: 300px;
-        width: 85%;
-        margin: auto;
-    }
-
-    .vanessa {
-        padding: 10px;
-        border-radius: 180%;
-        height: 300px;
         width: 85%;
         margin: auto;
     }
