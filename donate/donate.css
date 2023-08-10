@@ -43,8 +43,9 @@ body {
 .card_sleeve {
     background-color: transparent;
     width: 400px;
-    height: 750px;
+    height: 900px;
     perspective: 800px;
+    padding: 20px;
 }
 
 .contain1 {
