@@ -126,10 +126,11 @@ input {
     }
 
     .msg {
-        padding-top: -10;
+        padding-top: 0;
         padding-left: 0;
         font-size: 15px;
         width: 100%;
         height: 150px;
+        line-height: 1em;
     }
 }
