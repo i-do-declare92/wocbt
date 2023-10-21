@@ -97,7 +97,7 @@ input {
 .msg {
     padding: 5px;
     width: 100%;
-    height: 50px;
+    height: 250px;
 }
 
 /* Start of media queries */
@@ -130,5 +130,22 @@ input {
         width: 100%;
         height: 150px;
         line-height: 1em;
+    }
+
+    .btn1:hover {
+        background-color: #515d74;
+    }
+    
+    .btn1 {  
+        background-color: #253451;
+        color:#FFF;
+        width: 150px;
+        height: 50px;
+        border-radius: 15pt;
+        font-size: 15px;
+        cursor: pointer;
+        margin: auto;
+        border-style: none;
+        
     }
 }
