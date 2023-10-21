@@ -94,6 +94,12 @@ input {
     font-weight: bold;
 }
 
+.msg {
+    padding: 5px;
+    width: 100%;
+    height: 50px;
+}
+
 /* Start of media queries */
 @media only screen and (max-width: 768px) {
     .contain2 {
@@ -117,5 +123,11 @@ input {
 
     .para2 {
         font-size: 20px;
+    }
+
+    .msg {
+        padding: 5px;
+        width: 100%;
+        height: 25px;
     }
 }
