@@ -21,7 +21,7 @@ body {
 .info {
     text-align: left;
     width: 50%;
-    font-size: 20px;
+    font-size: 25px;
     margin: auto;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 .para1 {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 
@@ -39,9 +39,9 @@ body {
 
 input {
     margin: auto;
-    height: 25px;
+    height: 30px;
     width: 100%;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .btn {
@@ -59,7 +59,7 @@ input {
     width: 200px;
     height: 75px;
     border-radius: 15pt;
-    font-size: 20px;
+    font-size: 25px;
     cursor: pointer;
     margin: auto;
     border-style: none;
@@ -82,7 +82,7 @@ input {
 }
 
 .para2 {
-    font-size: 25px;
+    font-size: 30px;
     
     padding: 7%;
     
@@ -102,7 +102,7 @@ input {
 
     .info {
         width: 80%;
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .form {
